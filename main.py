@@ -44,8 +44,7 @@ while True:
     if again!='yes':
         break
 
-
-print('Bye!')
+print('Bye! ')
 
 
 
