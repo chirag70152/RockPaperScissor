@@ -41,7 +41,7 @@ while True:
             print('You win!')
     again = input('Do you wanna play again? yes/no :').lower()
 
-    if again!='yes':
+    if again!='yes' :
         break
 
 print('Bye! ')
