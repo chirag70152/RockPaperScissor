@@ -1,12 +1,12 @@
 import random
 
 while True:
-    game=['rock', 'papers', 'scissors']
+    game=['rock', 'paper', 'scissors']
     comp=random.choice(game)
     player=None
 
     while player not in game:
-        player=input('rock,papers, or scissors :').lower()
+        player=input('rock,paper, or scissors :').lower()
 
     if player==comp:
         print('player: ', player)
